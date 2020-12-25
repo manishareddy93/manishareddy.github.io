@@ -12,7 +12,7 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather';
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -61,6 +61,14 @@ video {
 
 .font-weight-100 {
   font-weight: 100;
+}
+
+.bg-total-dark {
+  background-color: #000;
+}
+
+.bg-coming-soon-gradient {
+  background: linear-gradient(to bottom, #3C3B3F 0%, #605C3C 100%);
 }
 
 .masthead {
@@ -197,6 +205,10 @@ video {
   }
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .btn-secondary {
   background-color: #3d405b;
   border-color: #3d405b;
@@ -209,4 +221,8 @@ video {
 
 .input {
   font-weight: 300 !important;
+}
+
+p {
+  font-size: 18px;
 }

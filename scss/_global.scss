@@ -57,3 +57,11 @@ video {
 .font-weight-100 {
   font-weight: 100;
 }
+
+.bg-total-dark {
+  background-color: $black;
+}
+
+.bg-coming-soon-gradient {
+  background: linear-gradient(to bottom, #3C3B3F 0%, #605C3C 100%);
+}
