@@ -59,6 +59,10 @@ video {
   z-index: 1;
 }
 
+.font-weight-100 {
+  font-weight: 100;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
